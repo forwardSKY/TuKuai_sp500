@@ -3,7 +3,7 @@
 ## Introduction
 ##### 当年陈刀仔他能用20块赢到3700万,土块可以用100块赢到100万吗？
 
-# ![alt text](image.png)
+# ![alt text](image1.png)
 # 
 ## 安装依赖
  
