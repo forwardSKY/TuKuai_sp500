@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 # ============================================================
-# Core Blocks (unchanged)
+# Xception and MLA
 # ============================================================
 class SeparableConv1d(nn.Module):
     def __init__(self, in_ch: int, out_ch: int, kernel_size: int = 3):
@@ -71,7 +71,7 @@ class BackboneBlock(nn.Module):
 
 
 # ============================================================
-# MTP Module (DeepSeek-V3 style, but using your BackboneBlock)
+# MTP Module
 # ============================================================
 class MTPModule(nn.Module):
     """At position i, predicts token t_{i+k+1} given:
