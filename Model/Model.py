@@ -127,7 +127,7 @@ class MTPStack(nn.Module):
 
 
 # ============================================================
-# Full Model: backbone + (optional) MTP head + shared embedding/output
+# Full Model: backbone + MTP head + shared embedding/output
 # ============================================================
 class Model(nn.Module):
     def __init__(self, args, n_mtp: int = 0):
