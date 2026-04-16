@@ -17,7 +17,7 @@ pip install yfinance pandas pyarrow requests beautifulsoup4 fredapi pandas-datar
 ### 首次运行
  
 ```bash
-python sp500_pipeline.py run
+python sp500_data_pipeline.py run
 ```
  
 程序会交互式引导你输入三个配置:
@@ -41,3 +41,11 @@ python sp500_pipeline.py run --clear-cache      # 清除缓存完全重跑
  
 ```
 run = load + process + eval
+
+```
+
+### Fetching Data
+# ![alt text](image2.png)
+
+### Evaluating Data
+# ![alt text](image3.png)
