@@ -49,3 +49,7 @@ run = load + process + eval
 
 ### Evaluating Data
 # ![alt text](image3.png)
+
+
+# Produt: Terminal fetching command for the next day prediction
+# also the calculation for performance after train versus sp500
